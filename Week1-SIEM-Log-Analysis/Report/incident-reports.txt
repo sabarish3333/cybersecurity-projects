@@ -1,0 +1,28 @@
+Incident Report – Brute Force Detection
+
+Date: 2/7/2026
+
+Analyst: Sabarish 
+
+Incident Type: Brute Force Login Attempt
+
+Description:
+Multiple failed login attempts were detected on a local Windows account.
+
+Evidence:
+Windows Event ID: 4625
+SIEM: Splunk
+Target Account: attacker
+Failed Attempts: 5
+
+Impact:
+Potential risk of unauthorized access.
+
+Mitigation:
+Enable account lockout
+Implement MFA
+Monitor failed logins
+Block suspicious IPs
+
+Conclusion:
+Attack was detected and contained through SIEM monitoring.
